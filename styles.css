@@ -194,3 +194,26 @@ footer {
 .back-button:hover {
     background-color: #0056b3;
 }
+
+/* Скрытые элементы */
+.hidden {
+    display: none;
+}
+
+/* Кнопка "Показать ещё" */
+.show-more-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+    background-color: #005fa3;
+}
